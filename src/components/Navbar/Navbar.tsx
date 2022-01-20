@@ -3,7 +3,6 @@ import React, { FC } from "react";
 import {
   Box,
   Center,
-  Container,
   Flex,
   FormControl,
   FormLabel,
@@ -11,7 +10,6 @@ import {
   Image,
   Input,
   SimpleGrid,
-  Spacer,
 } from "@chakra-ui/react";
 import { BiSearch } from "react-icons/bi";
 
