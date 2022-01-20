@@ -13,6 +13,12 @@ import { BiSearch } from "react-icons/bi";
 
 //Importing local files
 import logo from "../../assets/images/Logo.svg";
+import home from "../../assets/images/home.svg";
+import messenger from "../../assets/images/messenger.svg";
+import add from "../../assets/images/add.svg";
+import safari from "../../assets/images/safari.svg";
+import like from "../../assets/images/like.svg";
+import userPic from "../../assets/images/user-pic.svg";
 
 const Navbar: FC = () => {
   return (
@@ -21,6 +27,7 @@ const Navbar: FC = () => {
         <Flex>
           {/* Logo */}
           <Image src={logo} alt="logo" />
+
           {/* Search bar start */}
           <FormControl>
             <FormLabel htmlFor="search">
@@ -31,6 +38,10 @@ const Navbar: FC = () => {
             </FormLabel>
           </FormControl>
           {/* Search bar End */}
+
+          {/* LeftSide Icons Start */}
+
+          {/* LeftSide Icons End */}
         </Flex>
       </Container>
     </>
