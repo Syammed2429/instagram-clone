@@ -1,8 +1,10 @@
 //Importing all the required packages
 import React, { FC } from "react";
 
-const Navabar: FC = () => {
+import logo from "../../assets/images/Logo.svg";
+
+const Navbar: FC = () => {
   return <div></div>;
 };
 
-export { Navabar };
+export { Navbar };
