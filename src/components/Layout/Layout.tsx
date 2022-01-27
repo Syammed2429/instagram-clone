@@ -1,4 +1,5 @@
 import React, { FC } from "react";
+import { Feed } from "../Feed/Feed";
 
 import { Navbar } from "../Navbar/Navbar";
 import { Stories } from "../Stories/Stories";
@@ -8,6 +9,7 @@ const Layout: FC = () => {
     <>
       <Navbar />
       <Stories />
+      <Feed />
     </>
   );
 };
